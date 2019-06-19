@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  aspnetcorewithangular:
+    image: ${DOCKER_REGISTRY-}aspnetcorewithangular
+    build:
+      context: .
+      dockerfile: ./Dockerfile
