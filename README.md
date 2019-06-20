@@ -12,3 +12,5 @@ az acr task list-runs --registry $ACR_NAME --output table
 
 Log currently executing task or last executed 
 az acr task logs --registry $ACR_NAME   
+
+https://docs.microsoft.com/en-us/azure/container-registry/container-registry-tutorial-build-task
